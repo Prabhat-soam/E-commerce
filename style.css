@@ -158,6 +158,14 @@ header nav a
     font-size: 1.2rem;
     font-weight: 600;
 }
+.watch-para
+{
+    font-size: 1.1rem;
+    margin: 20px 0;
+    margin-left: 90px;
+    max-width: 950px;
+   
+}
 .cart-button
 {
    
@@ -172,8 +180,23 @@ header nav a
 {
    padding: 20px 30px;
     border: none;
-    cursor: pointer;
-    margin: 20px 340px;
+    
+}
+
+.product-item1,
+.product-item2,
+.product-item3,
+.product-item4 {
+    flex-direction: column;
+    align-items: center;
+}
+.product-item1 > div,
+.product-item2 > div,
+.product-item3 > div,
+.product-item4 > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .product-item1
 {
